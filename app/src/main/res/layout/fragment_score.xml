@@ -1,14 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ScoreFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+<layout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context=".ScoreFragment">
 
-</FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="@string/end_of_the_game"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="@string/your_score_is"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tv_end_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text=""
+            android:textColor="@color/Green"
+            android:textSize="60sp"
+            tools:text="12" />
+
+        <Button
+            android:id="@+id/btn_playAgain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:width="200dp"
+            android:height="80dp"
+            android:backgroundTint="@color/green"
+            android:text="@string/play_again"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</layout>

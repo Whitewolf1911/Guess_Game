@@ -8,7 +8,6 @@
         android:layout_height="match_parent"
         tools:context=".TitleFragment">
 
-        <!-- TODO: Update blank fragment layout -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -16,6 +15,7 @@
             android:text="@string/welcome_message"
             android:textSize="22sp"
             android:textStyle="bold"
+            android:textColor="@color/BlueViolet"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

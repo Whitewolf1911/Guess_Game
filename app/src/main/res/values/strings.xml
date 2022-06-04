@@ -6,4 +6,7 @@
     <string name="start">Start</string>
     <string name="skip">Skip</string>
     <string name="correct">Correct</string>
+    <string name="end_of_the_game">End Of The Game</string>
+    <string name="your_score_is">Your Score Is :</string>
+    <string name="play_again">Play Again</string>
 </resources>
